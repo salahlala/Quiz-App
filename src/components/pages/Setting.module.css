@@ -1,0 +1,12 @@
+.setting {
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 767px ) {
+  .setting {
+    width: 90%;
+  }
+}
